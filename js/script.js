@@ -1,0 +1,28 @@
+//while
+console.log('while');
+let tabuada = 35;
+let contador = 0;
+
+while (contador <= 35) {
+    let resultado = tabuada * contador;
+    console.log(tabuada + 'x' + contador + '=' + resultado);
+    contador++;
+}
+
+//For
+console.log('For');
+
+for (let contador2 = 0; contador2 <= 10; contador2++) {
+    let resultado = tabuada * contador2;
+    console.log(tabuada + 'X' + contador2 + '=' + resultado);
+}
+
+// Do While
+console.log('do while');
+
+let contador3 = 0;
+do {
+    let resultado = tabuada * contador3;
+    console.log(tabuada + 'X' + contador3 + '=' + resultado);
+    contador3++;
+} while (contador3 <= 35);
